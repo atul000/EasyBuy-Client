@@ -14,7 +14,7 @@ import Star from "../components/forms/Star";
 
 const { SubMenu, ItemGroup } = Menu;
 
-const Shop = () => {
+const Shop = ({ match }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [price, setPrice] = useState([0, 0]);
@@ -54,7 +54,7 @@ const Shop = () => {
     getCategories().then((res) => setCategories(res.data));
     // sub cat
     getSubs().then((res) => setSubs(res.data));
-  }, []);
+  }, [match.url]);
 
   const fetchProducts = (arg) => {
     fetchProductsByFilter(arg).then((res) => {
@@ -117,6 +117,7 @@ const Shop = () => {
         <br />
       </div>
     ));
+
   // handle check for categories
   const handleCheck = (e) => {
     dispatch({
