@@ -1,16 +1,8 @@
 import React from "react";
-// import {
-//   CarouselProvider,
-//   Slider,
-//   Slide,
-//   ButtonBack,
-//   ButtonNext,
-//   Image,
-//   ImageWithZoom,
-//   Dot,
-//   DotGroup,
-// } from "pure-react-carousel";
-// import "pure-react-carousel/dist/react-carousel.es.css";
+import ec1 from "./images/ec1.jpg";
+import ec2 from "./images/ec2.jpg";
+import ec3 from "./images/ec3.jpg";
+import ec4 from "./images/ec4.jpeg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -26,22 +18,17 @@ const HomeCarousel = () => {
       infiniteLoop
     >
       <div>
-        <img
-          src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs0xAkCF2XWZUV-scJ-lpKeJH3Bs41nCYbaw&usqp=CAU`}
-          alt="shoppy"
-        />
+        <img src={ec3} alt="shoppy" />
+      </div>
+
+      <div>
+        <img src={ec1} alt="shoppy" />
       </div>
       <div>
-        <img
-          src={`https://cdn.pixabay.com/photo/2018/03/10/10/23/makeup-3213724__340.jpg`}
-          alt="shoppy"
-        />
+        <img src={ec4} alt="shoppy" />
       </div>
       <div>
-        <img
-          src={`https://cdn.pixabay.com/photo/2018/10/17/08/54/black-3753449__340.png`}
-          alt="shoppy"
-        />
+        <img src={ec2} alt="shoppy" />
       </div>
     </Carousel>
   );
