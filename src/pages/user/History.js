@@ -95,6 +95,7 @@ const History = () => {
             {orders.length > 0 ? "User purchase orders" : "No purchase orders"}
           </h4>
           {showEachOrders()}
+          {/* {JSON.stringify(orders)} */}
         </div>
       </div>
     </div>

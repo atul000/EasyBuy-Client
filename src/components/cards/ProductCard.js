@@ -6,6 +6,9 @@ import { showAverage } from "../../functions/rating";
 import _ from "lodash";
 import { useSelector, useDispatch } from "react-redux";
 
+
+// adminpage
+
 const ProductCard = ({ product }) => {
   const [tooltip, setTooltip] = useState("click to add");
 

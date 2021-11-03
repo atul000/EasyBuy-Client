@@ -7,3 +7,7 @@
 .pointer {
   cursor: pointer;
 }
+
+body {
+  background-color: black;
+}

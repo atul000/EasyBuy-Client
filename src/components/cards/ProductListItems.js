@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// adminpage
 const ProductListItems = ({ product, match }) => {
   const {
     price,

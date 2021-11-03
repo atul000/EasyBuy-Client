@@ -8,6 +8,8 @@ import {
   CloseOutlined,
 } from "@ant-design/icons";
 
+// adminpage
+
 const ProductCardInCheckout = ({ p }) => {
   const colors = ["Black", "Brown", "Silver", "White", "Blue"];
 

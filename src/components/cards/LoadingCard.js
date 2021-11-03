@@ -1,5 +1,6 @@
 import React from "react";
 import { Skeleton, Card } from "antd";
+// adminpage
 
 const LoadingCard = ({ count }) => {
   const cards = () => {

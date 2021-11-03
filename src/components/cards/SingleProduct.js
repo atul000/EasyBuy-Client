@@ -14,6 +14,7 @@ import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 
 const { TabPane } = Tabs;
+// adminpage
 
 const SingleProduct = ({ product, onStarClick, star }) => {
   const { title, images, description, _id } = product;

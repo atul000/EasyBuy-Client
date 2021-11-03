@@ -1,5 +1,7 @@
 import React from "react";
 
+// adminpage
+
 const ShowPaymentInfo = ({ order, showStatus = true }) => {
   return (
     <div>

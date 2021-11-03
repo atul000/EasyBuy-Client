@@ -75,6 +75,7 @@ const App = () => {
 
   return (
     <Suspense
+      style={{ background: "black" }}
       fallback={
         <div className="col text-center p-5">
           __ Easy Buy L<LoadingOutlined />

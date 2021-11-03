@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const { Meta } = Card;
 
+// adminpage
 const AdminProductCard = ({ product, handleRemove }) => {
   const { title, description, images, slug } = product;
   return (
